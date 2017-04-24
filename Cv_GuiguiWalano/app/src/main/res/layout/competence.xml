@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_header_selector"
+    tools:context="com.example.s_coast.cv_guiguiwalano.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Compétences"
+            android:layout_gravity="center"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Light"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/fond_div">
+        <TextView
+            android:id="@+id/dev_"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:text="Developpeur"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Light"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/_"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:text="HTMLS-CSS/PHP/ANDROID/Angular/JAVA/C#"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/fond_div">
+
+        <TextView
+            android:id="@+id/WorkGroup"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="WorkGroup"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Light"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/Methode"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:text="-SCRUM \n-Chef de projet à l'ecole \n-Méthode agile"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/fond_div">
+        <TextView
+            android:id="@+id/Sport"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:text="Sports"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Light"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/Sports"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:text="-Hockey/glace (joueur/arbitre/coach) \n-Chef de projet à l'ecole \n-Méthode agile"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/fond_div">
+        <TextView
+            android:id="@+id/Musique"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:text="Musique"
+            android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Light"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/Prod"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:text="-Piano \n-M.A.O. \n-Page Souncdloud"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/dev2_"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Diplômé de soins en premiers secours \n\nTitulaire du permis" />
+
+</LinearLayout>
